@@ -7,7 +7,7 @@
       let path = "/images/"
       //generates random number inclusive, taking min & max as arguments
     function getRandom(min, max) {
-      return Math.floor(Math.random() * ((max+1)-min) + min);
+      return Math.floor((Math.random() * (max-min+1))+min);
     }
     left = getRandom(1,13);
     right = getRandom(1,13);
