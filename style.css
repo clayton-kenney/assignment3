@@ -1,9 +1,15 @@
 body {
     font-family: 'Big Shoulders Display', sans-serif;
-    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    background: linear-gradient(60deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+.bg-gray {
+    background-color: #a5a5b7;
 }
 h1 {
     text-align: center;
+}
+h2 {
+    margin-left: -30px;
 }
 .dogbtn {
     margin-bottom: 10px;
@@ -18,8 +24,19 @@ img {
     padding-left: 10px;
     text-transform: capitalize;
 }
+ul {
+    margin-left: -10px;
+}
+.toys {
+    display: flex;
+    justify-content: center;
+}
 @media only screen and (max-width: 600px) {
-    dogs {
+    .dogs {
         padding: 20px;
     }
+    .btn-block-s-only {
+        display: block;
+        width: 100%;
+      }
   }

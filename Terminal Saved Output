@@ -1,41 +1,51 @@
-Last login: Fri Sep 20 18:37:34 on ttys000
+Last login: Fri Sep 20 18:55:04 on ttys000
+claytons-mbp:~ Clayton$ git status
+fatal: not a git repository (or any of the parent directories): .git
 claytons-mbp:~ Clayton$ cd dropbox
 claytons-mbp:dropbox Clayton$ cd assignment3
-claytons-mbp:assignment3 Clayton$ git commit -a
-hint: Waiting for your editor to close the file... error: There was a problem with the editor 'vi'.
-Please supply the message using either -m or -F option.
-claytons-mbp:assignment3 Clayton$ git commit -m
-error: switch `m' requires a value
-claytons-mbp:assignment3 Clayton$ git commit
+claytons-mbp:assignment3 Clayton$ git status
 On branch master
-Your branch is up to date with 'origin/master'.
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
 
-Changes not staged for commit:
-	modified:   index.html
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
 
-no changes added to commit
+	Terminal Saved Output
+
+nothing added to commit but untracked files present (use "git add" to track)
 claytons-mbp:assignment3 Clayton$ git add
 Nothing specified, nothing added.
 Maybe you wanted to say 'git add .'?
-claytons-mbp:assignment3 Clayton$ git add index.html
+claytons-mbp:assignment3 Clayton$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+claytons-mbp:assignment3 Clayton$ git add .
 claytons-mbp:assignment3 Clayton$ git commit
 hint: Waiting for your editor to close the file... 
-
-testing
+test 2
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
 #
 # On branch master
-# Your branch is up to date with 'origin/master'.
+# Your branch is ahead of 'origin/master' by 1 commit.
+#   (use "git push" to publish your local commits)
 #
 # Changes to be committed:
-#       modified:   index.html
+#       new file:   Terminal Saved Output
 #
-~                                                                                   
-~                                                                                   
-~                                                                                   
-~                                                                                   
-~                                                                                   
-~                                                                                   
-~                                                                                   
--- INSERT --
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+ 

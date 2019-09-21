@@ -1,6 +1,5 @@
 
     //Select random image from folder, and then change html to display image
-
     function cute () {
       let left = "";
       let right= "";
@@ -11,6 +10,7 @@
     }
     left = getRandom(1,13);
     right = getRandom(1,13);
+    //ensure left and right are different
     if (left==right) {
       right = getRandom(1,13);
       };
