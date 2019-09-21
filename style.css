@@ -1,1 +1,25 @@
-
+body {
+    font-family: 'Big Shoulders Display', sans-serif;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+h1 {
+    text-align: center;
+}
+.dogbtn {
+    margin-bottom: 10px;
+}
+img {
+    padding-bottom: 10px;
+}
+#brand {
+    height: 40px;
+}
+#ig { 
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 600px) {
+    dogs {
+        padding: 20px;
+    }
+  }
