@@ -1,0 +1,41 @@
+Last login: Fri Sep 20 18:37:34 on ttys000
+claytons-mbp:~ Clayton$ cd dropbox
+claytons-mbp:dropbox Clayton$ cd assignment3
+claytons-mbp:assignment3 Clayton$ git commit -a
+hint: Waiting for your editor to close the file... error: There was a problem with the editor 'vi'.
+Please supply the message using either -m or -F option.
+claytons-mbp:assignment3 Clayton$ git commit -m
+error: switch `m' requires a value
+claytons-mbp:assignment3 Clayton$ git commit
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	modified:   index.html
+
+no changes added to commit
+claytons-mbp:assignment3 Clayton$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+claytons-mbp:assignment3 Clayton$ git add index.html
+claytons-mbp:assignment3 Clayton$ git commit
+hint: Waiting for your editor to close the file... 
+
+testing
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#       modified:   index.html
+#
+~                                                                                   
+~                                                                                   
+~                                                                                   
+~                                                                                   
+~                                                                                   
+~                                                                                   
+~                                                                                   
+-- INSERT --
