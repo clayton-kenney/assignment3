@@ -4,7 +4,7 @@
       let left = "";
       let right= "";
       let path = "/images/"
-      //generates random number inclusive, taking min & max as arguments
+    //generates random number inclusive, taking min & max as arguments
     function getRandom(min, max) {
       return Math.floor((Math.random() * (max-min+1))+min);
     }
@@ -14,9 +14,11 @@
     if (left==right) {
       right = getRandom(1,13);
       };
-    document.getElementById('leftDog').src = path + left + ".jpg";
-    document.getElementById('rightDog').src = path + right + ".jpg";
+    //assign to div img ids w/ relative file path
+   document.getElementById('leftDog').src = path + left + ".jpg";
+   document.getElementById('rightDog').src = path + right + ".jpg";
     };
-    document.getElementById('moredogs').onclick = cute;
+    //rerun script by clicking more dogs button
+   document.getElementById('moredogs').onclick = cute;
     
 
